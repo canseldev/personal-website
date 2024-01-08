@@ -1,0 +1,94 @@
+html, body, p {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color:whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.menu {
+    color: black;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin: 15px 0;
+}
+.menu .logo {
+    font-size: 40px;
+    font-weight: bold;
+    color: firebrick;
+}
+.menu .menuler ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-right: 500px;
+}
+.menu .menuler ul li a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid #87cefa;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color:#87cefa;
+}
+main .back {
+    background-color: #87cefa;
+    width: 450px;
+    height: 600px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    border-bottom-left-radius: 15%;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+main .back img {
+    height: 480px;
+    width: 390px;
+    border-radius: 10%;
+    object-fit: cover;
+    border-radius: 1px solid gray;
+}
+main .main {
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    flex-direction: column;
+    margin: 20px 40px;
+    
+}
+main .main i {
+    font-size: 75px;
+    color: #87cefa;
+}
+main .main h1 {
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+}
+main .main p {
+    font-size: 25px;
+    color: rgb(68, 67, 67);
+}
+main .main p .one {
+    color: firebrick;
+}
+main .main p .two {
+    color: #87cefa;
+}
+main .main button {
+    background-color: firebrick;
+    color: antiquewhite;
+    border-radius: 40px;
+    border: 1px solid firebrick;
+    margin: 20px;
+    padding: 20px;
+    width: 200px;
+}
+
